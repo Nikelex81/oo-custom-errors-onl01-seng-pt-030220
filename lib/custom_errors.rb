@@ -14,7 +14,7 @@ class Person
         rescue 
           PartnerError => error 
           puts error.message
-      dend 
+      end 
     else 
       person.partner = self
     end 
